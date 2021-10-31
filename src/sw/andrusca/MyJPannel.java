@@ -17,6 +17,8 @@ public class MyJPannel extends JPanel {
 
     }
 
+
+
     public MyJPannel(String name, int width, int height, LayoutManager manager) {
         this(name, width, height);
         super.setLayout(manager);
